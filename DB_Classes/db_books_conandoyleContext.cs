@@ -28,7 +28,7 @@ namespace SUBD_books_project.DB_Classes
             {
                 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder
-                    .UseSqlServer("Data Source=DESKTOP-AO7O24K;Initial Catalog=db_books_conandoyle;Integrated Security=True;TrustServerCertificate=True")
+                    .UseSqlServer("Data Source=DESKTOP-IDEQ7ON;Initial Catalog=db_books_conandoyle;Integrated Security=True;TrustServerCertificate=True")
                     .UseLazyLoadingProxies(); // Добавляем поддержку ленивой загрузки
             }
         }

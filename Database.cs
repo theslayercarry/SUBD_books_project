@@ -9,7 +9,7 @@ namespace SUBD_books_project
 {
     internal class Database
     {
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-AO7O24K;Initial Catalog=db_books_conandoyle;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-IDEQ7ON;Initial Catalog=db_books_conandoyle;Integrated Security=True");
 
         public void openConnection()
         {
